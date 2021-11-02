@@ -1,0 +1,181 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variable */
+
+:root {
+    --color-presentation: #9661c9;
+    --color-profile: #ecae4a;
+    --color-experience: #218c9f;
+    --color-education: #ff2121;
+    --color-blog: #9661c9;
+    --color-social: #45ab40;
+    --color-contact: #218c9f;
+    --color-portfolio: #45ab40;
+}
+
+
+
+#all {
+    background:lightgrey;
+    padding: 20px;
+    word-spacing: -0.4rem;
+}
+
+.container {
+    display: inline-block;
+    color: white;
+    width: 60%;
+}
+
+#right {
+    display: inline-block;
+    width: 39%;
+    background-image: url("Capture.PNG");
+    height: 60rem;
+    vertical-align: top;
+    position: relative;
+    top: 25px;
+}
+
+.ligne {
+    display: inline-block;
+    width: 100%;
+    word-spacing: -0.2rem;
+}
+
+.ligne div {
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+
+/* contenu des case */
+
+div > i {
+    font-size: 5rem;
+
+}
+
+/* first ligne */
+
+#presentation {
+    display: inline-block;
+    width: 66%;
+    text-align: left;
+    padding-left: 5%;
+    background: var(--color-presentation);
+    position: relative;
+    top: 25px;
+}
+
+button {
+    border: 2px solid white;
+    background: var(--color-presentation);
+    color: white;
+    width: 30%;
+    height: 50px;
+    margin-right: 2%;
+}
+
+button:hover {
+    color: dodgerblue;
+    box-shadow: inset 4px 4px 15px 0 #000000, inset 1px 1px 23px -30px rgba(128,128,128,0.17);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    width: 95%;
+}
+
+#presentation:hover {
+    color: dodgerblue;
+    box-shadow: inset 4px 4px 15px 0 #000000, inset 1px 1px 23px -30px rgba(128,128,128,0.17);
+}
+
+#profile {
+    background: var(--color-profile);
+}
+
+#profile:hover {
+    color: dodgerblue;
+    box-shadow: inset 4px 4px 15px 0 #000000, inset 1px 1px 23px -30px rgba(128,128,128,0.17);
+}
+
+/* second ligne */
+
+#experience {
+    background: var(--color-experience);
+}
+
+#experience:hover {
+    color: dodgerblue;
+    box-shadow: inset 4px 4px 15px 0 #000000, inset 1px 1px 23px -30px rgba(128,128,128,0.17);
+}
+
+#education {
+    background: var(--color-education);
+}
+
+#education:hover {
+    color: dodgerblue;
+    box-shadow: inset 4px 4px 15px 0 #000000, inset 1px 1px 23px -30px rgba(128,128,128,0.17);
+}
+
+#blog {
+    background: var(--color-blog);
+}
+
+#blog:hover {
+    color: dodgerblue;
+    box-shadow: inset 4px 4px 15px 0 #000000, inset 1px 1px 23px -30px rgba(128,128,128,0.17);
+}
+
+/* third ligne */
+
+#social {
+    background: var(--color-social);
+}
+
+#social:hover {
+    color: dodgerblue;
+    box-shadow: inset 4px 4px 15px 0 #000000, inset 1px 1px 23px -30px rgba(128,128,128,0.17);
+}
+
+#contact {
+    background: var(--color-contact);
+}
+
+#contact:hover {
+    color: dodgerblue;
+    box-shadow: inset 4px 4px 15px 0 #000000, inset 1px 1px 23px -30px rgba(128,128,128,0.17);
+}
+
+#portfolio {
+    background: var(--color-portfolio);
+}
+
+#portfolio:hover {
+    color: dodgerblue;
+    box-shadow: inset 4px 4px 15px 0 #000000, inset 1px 1px 23px -30px rgba(128,128,128,0.17);
+}
+
+/* picture */
+
+
+
