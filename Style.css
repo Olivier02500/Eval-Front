@@ -39,6 +39,8 @@ html {
     display: inline-block;
     width: 39%;
     background-image: url("Capture.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 60rem;
     vertical-align: top;
     position: relative;
