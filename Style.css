@@ -1,3 +1,19 @@
+@media screen and (max-width: 320px) {
+    .container {
+        display: block;
+        width: 100%;
+    }
+
+    .ligne {
+        width: 100%;
+    }
+
+    .ligne div {
+        height: 100px;
+    }
+}
+
+
 html {
     font-size: 62.5%;
 }
