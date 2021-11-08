@@ -1,18 +1,3 @@
-@media screen and (max-width: 320px) {
-    .container {
-        display: block;
-        width: 100%;
-    }
-
-    .ligne {
-        width: 100%;
-    }
-
-    .ligne div {
-        height: 100px;
-    }
-}
-
 
 html {
     font-size: 62.5%;
@@ -196,4 +181,31 @@ p {
 /* picture */
 
 
+@media screen and (max-width: 500px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-content: baseline;
+    }
+
+    .ligne {
+        flex-direction: column;
+        height: 25%;
+        align-content: baseline;
+    }
+
+    #presentation {
+
+    }
+
+    #right {
+        width: 95%;
+    }
+
+
+
+
+}
 
